@@ -7,9 +7,9 @@ values:
       required: true
     - name: port
       required: true
-    - name: username
+    - name: smtpUsername
       required: true
-    - name: password
+    - name: smtpPassword
       required: true
 encryption:
   enabled: true
