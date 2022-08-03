@@ -1,0 +1,17 @@
+name: smtp
+values:
+  userValues:
+    - name: host
+      required: true
+    - name: secure
+      required: true
+    - name: port
+      required: true
+    - name: username
+      required: true
+    - name: password
+      required: true
+encryption:
+  enabled: true
+  inputPaths:
+    - base/secret.yaml
