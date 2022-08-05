@@ -7,6 +7,8 @@ values:
       required: true
     - name: port
       required: true
+    - name: domain
+      required: true
     - name: smtpUsername
       required: true
     - name: smtpPassword
