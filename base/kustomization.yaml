@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: smtp
 resources:
   - secret.yaml
+  - configmap.yaml
